@@ -2,7 +2,6 @@
 
 source 'https://rubygems.org'
 
-gem "github-pages", "~> 232"
 
 unless Gem.win_platform?
   gem 'image_optim'
@@ -13,3 +12,5 @@ gem 'mini_magick'
 gem 'rake'
 
 gem 'webrick', '~> 1.7'
+
+gem "github-pages", "~> 232", group: :jekyll_plugins
