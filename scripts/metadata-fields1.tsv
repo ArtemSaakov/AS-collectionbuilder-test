@@ -1,0 +1,79 @@
+attribute	value
+_version_	1768319195339030528
+access_restricted	False
+aka	['https://www.loc.gov/pictures/item/2014647618/', 'http://www.loc.gov/item/2014647618/', 'http://www.loc.gov/pictures/item/2014647618/', 'https://www.loc.gov/pictures/collection/cph/item/2014647618/', 'http://www.loc.gov/pictures/collection/cph/item/2014647618/', 'https://hdl.loc.gov/loc.pnp/ds.06560', 'https://hdl.loc.gov/loc.pnp/ds.06560', 'http://www.loc.gov/resource/ds.06560/', 'http://lccn.loc.gov/2014647618']
+call_number	PCRD14, no. 171 [P&P]
+campaigns	[]
+contributor_names	['Gilbert, Cass, 1859-1934, architect']
+contributors	[{'gilbert, cass': 'https://www.loc.gov/search/?fa=contributor:gilbert,+cass&fo=json'}]
+control_number	
+created	2023-06-06T06:30:58Z
+created_published	['[Brooklyn, N.Y.] : [The Albertype Co.], [between 1921 and 1930?]']
+created_published_date	[between 1921 and 1930?]
+date	1921
+dates	[{'1921': 'https://www.loc.gov/search/?dates=1921/1921&fo=json'}]
+description	['1 photograph : hand-colored collotype ; sheet 14 x 21 cm. | Photograph shows view of Carnegie library in Detroit, Michigan.']
+digital_id	['ds 06560 https://hdl.loc.gov/loc.pnp/ds.06560']
+digitized	True
+display_offsite	True
+extract_timestamp	2023-06-10T12:35:59.658Z
+extract_urls	['http://www.loc.gov/pictures/collection/cph/item/2014647618/#cph', 'http://lccn.loc.gov/2014647618#catalog-split-07']
+format	[{'photo, print, drawing': 'https://www.loc.gov/search/?fa=original_format:photo,+print,+drawing&fo=json'}]
+format_headings	['Advertisements--1920-1930.', 'Architectural photographs--1920-1930.', 'Collotypes--Hand-colored--1920-1930.', 'Postcards--1920-1930.']
+genre	['Advertisements--1920-1930', 'Postcards--1920-1930', 'Architectural photographs--1920-1930', 'Collotypes--Hand-colored--1920-1930']
+group	['cph', 'catalog-split-07', 'catalog', 'miscellaneous-items-high-demand', 'main-catalog-split-07', 'main-catalog']
+hassegments	False
+id	http://www.loc.gov/item/2014647618/
+image_url	['https://tile.loc.gov/storage-services/service/pnp/ds/06500/06560_150px.jpg#h=107&w=150', 'https://tile.loc.gov/storage-services/service/pnp/ds/06500/06560r.jpg#h=454&w=640', 'https://tile.loc.gov/storage-services/service/pnp/ds/06500/06560v.jpg#h=727&w=1024']
+index	1
+item	{'call_number': 'PCRD14, no. 171 [P&P]', 'contributor_names': ['Gilbert, Cass, 1859-1934, architect '], 'contributors': ['Gilbert, Cass, 1859-1934, architect'], 'control_number': '2014647618', 'created': '2023-06-06T06:30:58Z', 'created_published': '[Brooklyn, N.Y.] : [The Albertype Co.], [between 1921 and 1930?]', 'created_published_date': '[between 1921 and 1930?]', 'creators': [{'link': 'https://www.loc.gov/pictures/related/?fi=name&q=Gilbert%2C%20Cass%2C%201859-1934&co=cph', 'role': 'architect', 'title': 'Gilbert, Cass, 1859-1934'}], 'date': '[between 1921 and 1930?]', 'digital_id': ['ds 06560 https://hdl.loc.gov/loc.pnp/ds.06560'], 'display_offsite': True, 'format': ['still image'], 'formats': [{'link': 'https://www.loc.gov/pictures/related/?fi=format&q=Advertisements--1920-1930.&co=cph', 'title': 'Advertisements--1920-1930.'}, {'link': 'https://www.loc.gov/pictures/related/?fi=format&q=Architectural%20photographs--1920-1930.&co=cph', 'title': 'Architectural photographs--1920-1930.'}, {'link': 'https://www.loc.gov/pictures/related/?fi=format&q=Collotypes--Hand-colored--1920-1930.&co=cph', 'title': 'Collotypes--Hand-colored--1920-1930.'}, {'link': 'https://www.loc.gov/pictures/related/?fi=format&q=Postcards--1920-1930.&co=cph', 'title': 'Postcards--1920-1930.'}], 'genre': ['Advertisements--1920-1930', 'Postcards--1920-1930', 'Architectural photographs--1920-1930', 'Collotypes--Hand-colored--1920-1930'], 'id': '2014647618', 'language': ['eng'], 'link': 'https://www.loc.gov/pictures/item/2014647618/', 'location': ['Michigan--Detroit'], 'marc': 'https://www.loc.gov/pictures/item/2014647618/marc/', 'medium': ['1 photograph : hand-colored collotype ; sheet 14 x 21 cm.'], 'medium_brief': '1 photograph :', 'mediums': ['1 photograph : hand-colored collotype ; sheet 14 x 21 cm.'], 'modified': '2023-06-06T06:31:02Z', 'notes': ['Title from item.', 'Includes advertisement for Berry Brothers, varnishes and paint specialties.', 'Library designed by Cass Gilbert.', '(PR 06 CN 037).'], 'other_control_numbers': ['18367073'], 'place': [{'latitude': '', 'link': 'https://www.loc.gov/pictures/related/?fi=place&q=Michigan--Detroit&co=cph', 'longitude': '', 'title': 'Michigan--Detroit'}], 'raw_collections': ['cph', 'diof', 'pp'], 'repository': 'Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA http://hdl.loc.gov/loc.pnp/pp.print', 'reproduction_number': 'LC-DIG-ds-06560 (digital file from original item)', 'resource_links': ['https://hdl.loc.gov/loc.pnp/ds.06560'], 'rights_advisory': 'No known restrictions on publication.', 'rights_information': 'No known restrictions on publication.', 'service_low': 'https://tile.loc.gov/storage-services/service/pnp/ds/06500/06560_150px.jpg', 'service_medium': 'https://tile.loc.gov/storage-services/service/pnp/ds/06500/06560r.jpg', 'sort_date': '1921', 'source_created': '2014-11-10T00:00:00Z', 'source_modified': '2023-05-31T07:54:19Z', 'subject_headings': ['Detroit Public Library--Buildings--1920-1930.', 'Berry Brothers--Public relations--1920-1930.', 'Carnegie libraries--Michigan--Detroit--1920-1930.', 'Public libraries--Michigan--Detroit--1920-1930.', 'Michigan--Detroit'], 'subjects': ['Detroit Public Library--Buildings--1920-1930', 'Berry Brothers--Public relations--1920-1930', 'Carnegie libraries--Michigan--Detroit--1920-1930', 'Public libraries--Michigan--Detroit--1920-1930'], 'summary': 'Photograph shows view of Carnegie library in Detroit, Michigan.', 'thumb_gallery': 'https://tile.loc.gov/storage-services/service/pnp/ds/06500/06560_150px.jpg', 'title': 'Main public library building - Detroit'}
+language	['english']
+languages	[{'english': 'https://www.loc.gov/search/?fa=language:english&fo=json'}]
+library_of_congress_control_number	2014647618
+link	https://www.loc.gov/pictures/item/2014647618/
+location	['detroit', 'michigan']
+locations	[{'detroit': 'https://www.loc.gov/search/?fa=location:detroit&fo=json'}, {'michigan': 'https://www.loc.gov/search/?fa=location:michigan&fo=json'}]
+marc	https://www.loc.gov/pictures/item/2014647618/marc/
+medium	['1 photograph : hand-colored collotype ; sheet 14 x 21 cm.']
+medium_brief	1 photograph :
+mime_type	['image/gif', 'image/jpg', 'image/tif']
+modified	2023-06-06T06:31:02Z
+notes	['Title from item.', 'Includes advertisement for Berry Brothers, varnishes and paint specialties.', 'Library designed by Cass Gilbert.', '(PR 06 CN 037).']
+number	['2023-05-31t07:54:19', 'sheet', 'http://www.loc.gov/item/18367073', '2014647618']
+number_carrier_type	['sheet']
+number_former_id	['http://www.loc.gov/item/18367073']
+number_lccn	['2014647618']
+number_source_modified	['2023-05-31t07:54:19']
+online_format	['image']
+original_format	['photo, print, drawing']
+other_control_numbers	['18367073']
+other_formats	[{'label': 'MARCXML Record', 'link': 'https://lccn.loc.gov/2014647618/marcxml'}, {'label': 'MODS Record', 'link': 'https://lccn.loc.gov/2014647618/mods'}, {'label': 'Dublin Core Record', 'link': 'https://lccn.loc.gov/2014647618/dc'}]
+partof	[{'count': 117442, 'title': 'miscellaneous items in high demand', 'url': 'https://www.loc.gov/search/?fa=partof:miscellaneous+items+in+high+demand&fo=json'}, {'count': 950665, 'title': 'prints & photographs online catalog (library of congress)', 'url': 'https://www.loc.gov/search/?fa=partof:prints+%26+photographs+online+catalog+%28library+of+congress%29&fo=json'}, {'count': 1079675, 'title': 'prints and photographs division', 'url': 'https://www.loc.gov/search/?fa=partof:prints+and+photographs+division&fo=json'}, {'count': 1587565, 'title': 'catalog', 'url': 'https://www.loc.gov/search/?fa=partof:catalog&fo=json'}]
+place	[{'latitude': '', 'link': 'https://www.loc.gov/pictures/related/?fi=place&q=Michigan--Detroit&co=cph', 'longitude': '', 'title': 'Michigan--Detroit'}]
+raw_collections	['cph', 'diof', 'pp']
+related	{'neighbors': 'https://www.loc.gov/pictures/related/?&co=cph&pk=2014647618&st=gallery&sb=call_number#focus'}
+repository	['Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA http://hdl.loc.gov/loc.pnp/pp.print']
+reproduction_number	LC-DIG-ds-06560 (digital file from original item)
+reproductions	[]
+resource_links	['https://hdl.loc.gov/loc.pnp/ds.06560']
+resources	[{'caption': 'digital file from original item', 'files': 1, 'image': 'https://tile.loc.gov/storage-services/service/pnp/ds/06500/06560_150px.jpg', 'url': 'https://www.loc.gov/resource/ds.06560/'}]
+rights	[]
+rights_advisory	No known restrictions on publication.
+rights_information	No known restrictions on publication.
+score	19.196266
+shard	00
+shelf_id	PCRD14, no. 171 [P&P]
+site	['pictures', 'catalog']
+sort_date	1921
+source_created	2014-11-10T00:00:00Z
+source_modified	2000-01-01T12:00:00Z
+subject	['advertisements', 'collotypes', 'berry brothers', 'postcards', 'detroit', 'architectural photographs', 'public relations', 'detroit public library', 'public libraries', 'hand-colored', 'michigan', 'carnegie libraries', 'buildings']
+subject_headings	['Detroit Public Library--Buildings--1920-1930', 'Berry Brothers--Public relations--1920-1930', 'Carnegie libraries--Michigan--Detroit--1920-1930', 'Public libraries--Michigan--Detroit--1920-1930']
+subjects	[{'advertisements': 'https://www.loc.gov/search/?fa=subject:advertisements&fo=json'}, {'architectural photographs': 'https://www.loc.gov/search/?fa=subject:architectural+photographs&fo=json'}, {'berry brothers': 'https://www.loc.gov/search/?fa=subject:berry+brothers&fo=json'}, {'buildings': 'https://www.loc.gov/search/?fa=subject:buildings&fo=json'}, {'carnegie libraries': 'https://www.loc.gov/search/?fa=subject:carnegie+libraries&fo=json'}, {'collotypes': 'https://www.loc.gov/search/?fa=subject:collotypes&fo=json'}, {'detroit': 'https://www.loc.gov/search/?fa=subject:detroit&fo=json'}, {'detroit public library': 'https://www.loc.gov/search/?fa=subject:detroit+public+library&fo=json'}, {'hand-colored': 'https://www.loc.gov/search/?fa=subject:hand-colored&fo=json'}, {'michigan': 'https://www.loc.gov/search/?fa=subject:michigan&fo=json'}, {'postcards': 'https://www.loc.gov/search/?fa=subject:postcards&fo=json'}, {'public libraries': 'https://www.loc.gov/search/?fa=subject:public+libraries&fo=json'}, {'public relations': 'https://www.loc.gov/search/?fa=subject:public+relations&fo=json'}]
+summary	Photograph shows view of Carnegie library in Detroit, Michigan.
+thumb_gallery	https://tile.loc.gov/storage-services/service/pnp/ds/06500/06560_150px.jpg
+timestamp	2023-06-10T12:36:39.712Z
+title	Main public library building - Detroit
+type	['photo, print, drawing']
+unrestricted	True
+url	https://www.loc.gov/item/2014647618/

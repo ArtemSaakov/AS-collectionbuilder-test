@@ -1,0 +1,78 @@
+attribute	value
+_version_	1754109026683060224
+access_restricted	False
+aka	['https://www.loc.gov/pictures/item/98508155/', 'http://www.loc.gov/item/98508155/', 'http://www.loc.gov/pictures/item/98508155/', 'https://www.loc.gov/pictures/collection/wpapos/item/98508155/', 'http://www.loc.gov/pictures/collection/wpapos/item/98508155/', 'http://www.loc.gov/resource/cph.3f05183/', 'http://lccn.loc.gov/98508155', 'https://hdl.loc.gov/loc.pnp/cph.3f05183']
+call_number	POS - WPA - ILL .01 .F665, no. 1 (B size) [P&P]
+campaigns	[]
+contributor_names	['Federal Art Project, sponsor']
+contributors	[{'federal art project': 'https://www.loc.gov/search/?fa=contributor:federal+art+project&fo=json'}]
+control_number	
+created	2022-08-30T06:05:30Z
+created_published	['Chicago : Illinois WPA Art Project, [between 1936 and 1941]']
+created_published_date	[between 1936 and 1941]
+date	1936-01-01
+dates	[{'1936': 'https://www.loc.gov/search/?dates=1936/1936&fo=json'}]
+description	['1 print on board (poster) : silkscreen, color. | Poster showing a mortarboard and a pair of glasses superimposed over a globe, promoting use of libraries.']
+digital_id	['cph 3f05183 //hdl.loc.gov/loc.pnp/cph.3f05183']
+digitized	True
+display_offsite	True
+extract_timestamp	2022-09-03T12:25:49.213Z
+extract_urls	['http://www.loc.gov/pictures/collection/wpapos/item/98508155/#wpapos', 'http://lccn.loc.gov/98508155#catalog-split-09']
+format	[{'photo, print, drawing': 'https://www.loc.gov/search/?fa=original_format:photo,+print,+drawing&fo=json'}]
+format_headings	['Posters--1930-1950.', 'Screen prints--Color--1930-1950.']
+genre	['Posters--1930-1950', 'Screen prints--Color--1930-1950']
+group	['wpapos', 'catalog-split-09', 'catalog', 'wpa-posters', 'main-catalog-split-09', 'main-catalog']
+hassegments	False
+id	http://www.loc.gov/item/98508155/
+image_url	['https://tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05100/3f05183_150px.jpg#h=150&w=103', 'https://tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05100/3f05183t.gif#h=150&w=103', 'https://tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05100/3f05183r.jpg#h=640&w=440', 'https://tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05100/3f05183v.jpg#h=1024&w=705']
+index	1
+item	{'call_number': 'POS - WPA - ILL .01 .F665, no. 1 (B size) [P&P]', 'contributor_names': ['Federal Art Project, sponsor '], 'contributors': ['Federal Art Project, sponsor'], 'control_number': '98508155', 'created': '2022-08-30T06:05:30Z', 'created_published': 'Chicago : Illinois WPA Art Project, [between 1936 and 1941]', 'created_published_date': '[between 1936 and 1941]', 'creators': [{'link': 'https://www.loc.gov/pictures/related/?fi=name&q=Federal%20Art%20Project&co=wpapos', 'role': 'sponsor', 'title': 'Federal Art Project'}], 'date': '[between 1936 and 1941]', 'digital_id': ['cph 3f05183 //hdl.loc.gov/loc.pnp/cph.3f05183'], 'display_offsite': True, 'format': ['still image'], 'formats': [{'link': 'https://www.loc.gov/pictures/related/?fi=format&q=Posters--1930-1950.&co=wpapos', 'title': 'Posters--1930-1950.'}, {'link': 'https://www.loc.gov/pictures/related/?fi=format&q=Screen%20prints--Color--1930-1950.&co=wpapos', 'title': 'Screen prints--Color--1930-1950.'}], 'genre': ['Posters--1930-1950', 'Screen prints--Color--1930-1950'], 'id': '98508155', 'link': 'https://www.loc.gov/pictures/item/98508155/', 'location': ['Illinois--Chicago'], 'marc': 'https://www.loc.gov/pictures/item/98508155/marc/', 'medium': ['1 print on board (poster) : silkscreen, color.'], 'medium_brief': '1 print on board (poster) :', 'mediums': ['1 print on board (poster) : silkscreen, color.'], 'modified': '2022-08-30T06:05:31Z', 'notes': ['Work Projects Administration Poster Collection (Library of Congress).', 'Date stamped on verso: Jan 24 1941.'], 'number_former_id': ['https://www.loc.gov/item/98508155', 'https://www.loc.gov/item/11715294'], 'other_control_numbers': ['11715294'], 'place': [{'latitude': '', 'link': 'https://www.loc.gov/pictures/related/?fi=place&q=Illinois--Chicago&co=wpapos', 'longitude': '', 'title': 'Illinois--Chicago'}], 'raw_collections': ['diof', 'flickreyeglasses', 'pp', 'wpapos'], 'repository': 'Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA', 'reproduction_number': 'LC-USZC2-5183 (color film copy slide)', 'resource_links': ['//hdl.loc.gov/loc.pnp/cph.3f05183'], 'rights_advisory': 'No known restrictions on publication.', 'rights_information': 'No known restrictions on publication.', 'service_low': '//tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05100/3f05183_150px.jpg', 'service_medium': '//tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05100/3f05183r.jpg', 'sort_date': '1936', 'source_created': '1998-05-20T00:00:00Z', 'source_modified': '2022-08-26T13:36:40Z', 'subject_headings': ['Libraries--Illinois--Chicago--1930-1950.', 'Education--Illinois--Chicago--1930-1950.', 'Illinois--Chicago'], 'subjects': ['Libraries--Illinois--Chicago--1930-1950', 'Education--Illinois--Chicago--1930-1950'], 'summary': 'Poster showing a mortarboard and a pair of glasses superimposed over a globe, promoting use of libraries.', 'thumb_gallery': '//tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05100/3f05183_150px.jpg', 'title': 'For greater knowledge on more subjects use your library more often'}
+language	['english']
+languages	[{'english': 'https://www.loc.gov/search/?fa=language:english&fo=json'}]
+library_of_congress_control_number	98508155
+link	https://www.loc.gov/pictures/item/98508155/
+location	['illinois', 'chicago']
+locations	[{'chicago': 'https://www.loc.gov/search/?fa=location:chicago&fo=json'}, {'illinois': 'https://www.loc.gov/search/?fa=location:illinois&fo=json'}]
+marc	https://www.loc.gov/pictures/item/98508155/marc/
+medium	['1 print on board (poster) : silkscreen, color.']
+medium_brief	1 print on board (poster) :
+mime_type	['image/gif', 'image/jpg', 'image/tif']
+modified	2022-08-30T06:05:31Z
+notes	['Work Projects Administration Poster Collection (Library of Congress).', 'Date stamped on verso: Jan 24 1941.']
+number	['2022-08-26t13:36:40', 'http://www.loc.gov/item/98508155', 'http://www.loc.gov/item/11715294', '98508155']
+number_former_id	['http://www.loc.gov/item/11715294', 'http://www.loc.gov/item/98508155']
+number_lccn	['98508155']
+number_source_modified	['2022-08-26t13:36:40']
+online_format	['image']
+original_format	['photo, print, drawing']
+other_control_numbers	['11715294']
+other_formats	[{'label': 'MARCXML Record', 'link': 'https://lccn.loc.gov/98508155/marcxml'}, {'label': 'MODS Record', 'link': 'https://lccn.loc.gov/98508155/mods'}, {'label': 'Dublin Core Record', 'link': 'https://lccn.loc.gov/98508155/dc'}]
+partof	[{'count': 932, 'title': 'by the people, for the people: posters from the wpa, 1936-1943', 'url': 'https://www.loc.gov/search/?fa=partof:by+the+people,+for+the+people:+posters+from+the+wpa,+1936-1943&fo=json'}, {'count': 947, 'title': 'posters: wpa posters', 'url': 'https://www.loc.gov/collections/works-progress-administration-posters/?fo=json'}, {'count': 437336, 'title': 'american memory', 'url': 'https://www.loc.gov/search/?fa=partof:american+memory&fo=json'}, {'count': 950665, 'title': 'prints & photographs online catalog (library of congress)', 'url': 'https://www.loc.gov/search/?fa=partof:prints+%26+photographs+online+catalog+%28library+of+congress%29&fo=json'}, {'count': 1079675, 'title': 'prints and photographs division', 'url': 'https://www.loc.gov/search/?fa=partof:prints+and+photographs+division&fo=json'}, {'count': 1587565, 'title': 'catalog', 'url': 'https://www.loc.gov/search/?fa=partof:catalog&fo=json'}]
+place	[{'latitude': '', 'link': 'https://www.loc.gov/pictures/related/?fi=place&q=Illinois--Chicago&co=wpapos', 'longitude': '', 'title': 'Illinois--Chicago'}]
+raw_collections	['diof', 'flickreyeglasses', 'pp', 'wpapos']
+related	{'neighbors': 'https://www.loc.gov/pictures/related/?&co=wpapos&pk=98508155&st=gallery&sb=call_number#focus'}
+repository	['Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA']
+reproduction_number	LC-USZC2-5183 (color film copy slide)
+reproductions	[]
+resource_links	['//hdl.loc.gov/loc.pnp/cph.3f05183']
+resources	[{'caption': 'color film copy slide', 'files': 1, 'image': 'https://tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05100/3f05183_150px.jpg', 'url': 'https://www.loc.gov/resource/cph.3f05183/'}]
+rights	['<p>The Library of Congress does not&nbsp;own rights to material  in its collections. Therefore, it does not license or charge permission fees  for use of such material and cannot grant or deny permission to publish or  otherwise distribute the material. </p>\n<p>Ultimately, it is the researcher\'s obligation to assess copyright or other use restrictions and  obtain permission from third parties when necessary before publishing or  otherwise distributing materials found in the Library\'s collections. </p>\n<p>For information about reproducing,  publishing, and citing material from this collection, as well as access to the  original items, see: <a href="//www.loc.gov/rr/print/res/217_wpa.html">Work Projects Administration Posters - Rights and Restrictions Information</a> </p>\n \n']
+rights_advisory	No known restrictions on publication.
+rights_information	No known restrictions on publication.
+score	19.196266
+shard	00
+shelf_id	POS - WPA - ILL .01 .F665, no. 1 (B size) [P&P]
+site	['pictures', 'catalog']
+sort_date	1936
+source_created	1998-05-20T00:00:00Z
+source_modified	2022-08-26T13:36:40Z
+subject	['chicago', 'education', 'posters', 'libraries', 'illinois', 'color', 'screen prints']
+subject_headings	['Libraries--Illinois--Chicago--1930-1950', 'Education--Illinois--Chicago--1930-1950']
+subjects	[{'chicago': 'https://www.loc.gov/search/?fa=subject:chicago&fo=json'}, {'color': 'https://www.loc.gov/search/?fa=subject:color&fo=json'}, {'education': 'https://www.loc.gov/search/?fa=subject:education&fo=json'}, {'illinois': 'https://www.loc.gov/search/?fa=subject:illinois&fo=json'}, {'libraries': 'https://www.loc.gov/search/?fa=subject:libraries&fo=json'}, {'posters': 'https://www.loc.gov/search/?fa=subject:posters&fo=json'}, {'screen prints': 'https://www.loc.gov/search/?fa=subject:screen+prints&fo=json'}]
+summary	Poster showing a mortarboard and a pair of glasses superimposed over a globe, promoting use of libraries.
+thumb_gallery	//tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05100/3f05183_150px.jpg
+timestamp	2023-01-04T16:12:06.699Z
+title	For greater knowledge on more subjects use your library more often
+type	['photo, print, drawing']
+unrestricted	True
+url	https://www.loc.gov/item/98508155/
