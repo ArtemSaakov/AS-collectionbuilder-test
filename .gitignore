@@ -21,3 +21,4 @@ scripts/.python-version
 
 # and .vscode
 .vscode/
+scripts/count_keys.py
