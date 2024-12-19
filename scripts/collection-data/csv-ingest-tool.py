@@ -17,66 +17,81 @@ if not METADATA.exists():
     raise FileNotFoundError(f"Metadata path does not exist: {METADATA}")
 
 
-def extract_dates(text: str) -> list:
-    """
-    Extracts dates from text.
-    Supported formats:
-    - Single year (e.g., "1999")
-    - Year range (e.g., "1999-2001")
-    - Year and month (e.g., "1941 Sept.")
-    - Month and year (e.g., "September 2012")
-    - Full ISO date (e.g., "2015-09-30")
-    Args:
-        text (str): Input text.
-    Returns:
-        list: Extracted dates in "YYYY", "YYYY/YYYY", "YYYY-MM", or "YYYY-MM-DD" format.
-    """
+def month_name_to_number(month_name):
+    # Normalize month name
+    month_name = month_name.strip('.').lower()
+    month_map = {
+        'jan': 1, 'jan.': 1, 'january': 1,
+        'feb': 2, 'feb.': 2, 'february': 2,
+        'mar': 3, 'mar.': 3, 'march': 3,
+        'apr': 4, 'apr.': 4, 'april': 4,
+        'may': 5,
+        'jun': 6, 'jun.': 6, 'june': 6,
+        'jul': 7, 'jul.': 7, 'july': 7,
+        'aug': 8, 'aug.': 8, 'august': 8,
+        'sep': 9, 'sep.': 9, 'sept': 9, 'sept.': 9, 'september': 9,
+        'oct': 10, 'oct.': 10, 'october': 10,
+        'nov': 11, 'nov.': 11, 'november': 11,
+        'dec': 12, 'dec.': 12, 'december': 12
+    }
+    return month_map.get(month_name, None)
 
-    results = []
+def extract_dates(text):
+    # remove outer brackets and approximate indicators
+    clean_text = re.sub(r'\[|\]|\(|\)|\?|ca\.?|c\.?', '', text.lower())
+    clean_text = clean_text.strip()
 
-    # patterns to match various date formats
-    patterns = [
-        r"\b(?:c|ca\.?|between|after|before|in|on|around|circa)?\s*\[?\s*(\d{4})\s*\]?\b",  # single year
-        r"\b(?:c|ca\.?|between|after|before|in|on|around|circa)?\s*\[?\s*(\d{4})\s*(?:and|-|to|/|or)\s*(\d{4})\s*\]?\b",  # year range
-        r"\b(\d{4})\s*([A-Za-z]+)\b",  # year and month (like "1941 sept.")
-        r"\b([A-Za-z]+)\s+(\d{4})\b",  # month and year (like "september 2012")
-        r"\b(\d{4})-(\d{2})-(\d{2})\b",  # full iso date (like "2015-09-30")
-    ]
+    # full date patterns (yyyy-mm-dd or variants)
+    # this will match formats like: "2015-09-30", "2015/09/30", "2015.09.30"
+    full_date_pattern = re.compile(r'(?P<year>\d{4})[\./\- ](?P<month>\d{1,2})[\./\- ](?P<day>\d{1,2})')
+    m = full_date_pattern.search(clean_text)
+    if m:
+        year = int(m.group('year'))
+        month = int(m.group('month'))
+        day = int(m.group('day'))
+        # just assume correctness and format it
+        return f"{year:04d}-{month:02d}-{day:02d}"
 
-    for pattern in patterns:
-        matches = re.findall(pattern, text)
-        for match in matches:
-            if len(match) == 1:  # single year
-                year = match[0]
-                results.append(year)
-            elif len(match) == 2:  # month-year or year-month
-                if match[0].isdigit():  # e.g., "1941 sept."
-                    year, month = match
-                else:  # e.g., "september 2012"
-                    month, year = match
-                try:
-                    # parse and reformat month-year to iso (yyyy-mm)
-                    month_number = datetime.strptime(
-                        month[:3], "%b"
-                    ).month  # handle abbreviations like "sept"
-                    formatted_date = f"{year}-{month_number:02d}"
-                    results.append(formatted_date)
-                except ValueError:
-                    continue
-            elif len(match) == 3:  # full iso date (like 2015-09-30) or year-range
-                if match[0].isdigit() and match[1].isdigit() and match[2].isdigit():
-                    # full date in iso (yyyy-mm-dd)
-                    year, month, day = match
-                    formatted_date = f"{year}-{month}-{day}"
-                    results.append(formatted_date)
-                else:
-                    # year range (like "1900 and 1905")
-                    start_year, end_year = match[0], match[2]
-                    results.append(f"{start_year}/{end_year}")
-            else:
-                continue
+    # year-month (like "sept 1941", "1941 sept", "2012 september")
+    # we'll try both "year month" and "month year"
+    ym_pattern = re.compile(
+        r'(?P<year>\d{4})[\s.,]*(?P<monthname>[a-zA-Z]+)|(?P<monthname2>[a-zA-Z]+)[\s.,]*(?P<year2>\d{4})'
+    )
+    ym = ym_pattern.search(clean_text)
+    if ym:
+        if ym.group('year') and ym.group('monthname'):
+            year = int(ym.group('year'))
+            month_str = ym.group('monthname')
+        else:
+            year = int(ym.group('year2'))
+            month_str = ym.group('monthname2')
 
-    return results
+        month_num = month_name_to_number(month_str)
+        if month_num:
+            # return yyyy-mm
+            return f"{year:04d}-{month_num:02d}"
+        else:
+            # if month not recognized, just return the year
+            return f"{year:04d}"
+
+    # year range: "between 1900 and 1905" or "1900-1905" or "1900 and 1905"
+    year_range_pattern = re.compile(r'(?:between\s+)?(\d{4})\D+(?:and|-|to)\D+(\d{4})')
+    yr_range = year_range_pattern.search(clean_text)
+    if yr_range:
+        y1 = int(yr_range.group(1))
+        y2 = int(yr_range.group(2))
+        # return "yyyy/yyyy"
+        return f"{y1:04d}/{y2:04d}"
+
+    # single year
+    year_pattern = re.compile(r'(\d{4})')
+    y = year_pattern.search(clean_text)
+    if y:
+        year = int(y.group(1))
+        return f"{year:04d}"
+
+    # if no recognizable date found
+    return None
 
 
 def determine_extent_form(container: list) -> str | tuple:
@@ -111,7 +126,7 @@ def determine_extent_form(container: list) -> str | tuple:
         extent1, form, extent2 = match.group(1), match.group(2), match.group(3)
         return (";".join([extent1, extent2]), form)
     elif ":" in container[0]:
-        extent, form = container.split(" : ")
+        extent, form = container[0].split(" : ")
         return (extent, form)
     else:
         return (container[0], "N/A")
@@ -129,17 +144,21 @@ def clean_html_text(html_text: str) -> str:
         str: The cleaned text with HTML tags removed, escape sequences decoded,
              and extraneous whitespace characters replaced by a single space.
     """
+    try:
+        # remove HTML tags
+        no_tags = re.sub(r"<[^>]+>", " ", html_text[0])
 
-    # remove HTML tags
-    no_tags = re.sub(r"<[^>]+>", " ", html_text)
+        # decode HTML escape sequences (&nbsp; etc) to a space
+        decoded_text = html.unescape(no_tags)
 
-    # decode HTML escape sequences (&nbsp; etc) to a space
-    decoded_text = html.unescape(no_tags)
+        # Step 3: Replace multiple spaces, tabs, and newlines with a single space
+        cleaned_text = re.sub(r"\s+", " ", decoded_text).strip()
 
-    # Step 3: Replace multiple spaces, tabs, and newlines with a single space
-    cleaned_text = re.sub(r"\s+", " ", decoded_text).strip()
+        return cleaned_text
 
-    return cleaned_text
+    except Exception as e:
+        print(f"Error cleaning HTML text: {e}")
+        return "N/A"
 
 
 def main() -> None:
@@ -200,7 +219,7 @@ def main() -> None:
                         else data.get("rights_information")
                     )
                     data_dict[f"{dc}rights"] = clean_html_text(
-                        data.get("rights", "N/A")
+                        data.get("rights", ["N/A"])
                     )
                 else:
                     print(f"No data from {str(i)}:(")

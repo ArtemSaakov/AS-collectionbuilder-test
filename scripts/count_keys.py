@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 
 directory = Path.cwd() / Path('collection-data/item-metadata')  # Replace with your directory
-key_to_check = 'medium'  # Replace with the key you want to check
+key_to_check = 'rights'  # Replace with the key you want to check
 key_to_compare = 'medium'  # Replace with the key you want to compare
 
 custom_key_count = 0
@@ -19,7 +19,7 @@ for filepath in directory.glob('*.json'):
             key1 = data['item'].get(key_to_check, None)
             key2 = data.get(key_to_compare, None)
             with open('output.txt', 'a') as f:
-                f.write(f'{filepath.name}:\nlanguage: {key1}\nlanguage #2: {key2}\n')
+                f.write(f'{filepath.name}:\n{key2}\n')
 
         except json.JSONDecodeError:
             print(f"Error decoding JSON in file {filepath.name}")

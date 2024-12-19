@@ -22,3 +22,6 @@ scripts/.python-version
 # and .vscode
 .vscode/
 scripts/count_keys.py
+omeka-ingest-data.csv
+scripts/output.txt
+

@@ -1,177 +1,118 @@
 cn_2007682033.json:
-language: ['1 photographic print.']
-language #2: ['1 photographic print.']
+['1 photographic print.']
 cn_2017702899.json:
-language: ['1 photograph : color transparency ; 35 mm (slide format).']
-language #2: ['1 photograph : color transparency ; 35 mm (slide format).']
+['1 photograph : color transparency ; 35 mm (slide format).']
 cn_il0998.json:
-language: None
-language #2: ['Measured Drawing(s): 21 ', 'Data Page(s): 8 ']
+['Measured Drawing(s): 21 ', 'Data Page(s): 8 ']
 cn_nj0089.json:
-language: None
-language #2: ['Photo(s): 6 ', 'Photo Caption Page(s): 1 ']
+['Photo(s): 6 ', 'Photo Caption Page(s): 1 ']
 cn_ks0072.json:
-language: None
-language #2: ['Photo(s): 7 ', 'Data Page(s): 7 ', 'Photo Caption Page(s): 1 ']
+['Photo(s): 7 ', 'Data Page(s): 7 ', 'Photo Caption Page(s): 1 ']
 cn_2017815837.json:
-language: ['1 negative : safety ; 3 1/4 x 4 1/4 inches or smaller.']
-language #2: ['1 negative : safety ; 3 1/4 x 4 1/4 inches or smaller.']
+['1 negative : safety ; 3 1/4 x 4 1/4 inches or smaller.']
 cn_97511671.json:
-language: ['1 photographic print.']
-language #2: ['1 photographic print.']
+['1 photographic print.']
 cn_2017770391.json:
-language: ['1 negative : nitrate ; 2 1/4 x 2 1/4 inches or smaller.']
-language #2: ['1 negative : nitrate ; 2 1/4 x 2 1/4 inches or smaller.']
+['1 negative : nitrate ; 2 1/4 x 2 1/4 inches or smaller.']
 cn_2007684791.json:
-language: ['1 photographic print.']
-language #2: ['1 photographic print.']
+['1 photographic print.']
 cn_2009632000.json:
-language: ['1 negative : glass.']
-language #2: ['1 negative : glass.']
+['1 negative : glass.']
 cn_2017686535.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2017685123.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2020723718.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2007684172.json:
-language: ['1 photographic print.']
-language #2: ['1 photographic print.']
+['1 photographic print.']
 cn_ak0345.json:
-language: None
-language #2: ['Photo(s): 3 ', 'Photo Caption Page(s): 1 ']
+['Photo(s): 3 ', 'Photo Caption Page(s): 1 ']
 cn_2016815290.json:
-language: ['1 negative : glass ; 8 x 10 in.']
-language #2: ['1 negative : glass ; 8 x 10 in.']
+['1 negative : glass ; 8 x 10 in.']
 cn_2014650180.json:
-language: ['1 photograph : gelatin silver print ; sheet 24 x 19 cm.']
-language #2: ['1 photograph : gelatin silver print ; sheet 24 x 19 cm.']
+['1 photograph : gelatin silver print ; sheet 24 x 19 cm.']
 cn_2013631511.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_ri0071.json:
-language: None
-language #2: ['Photo(s): 17 ', 'Measured Drawing(s): 5 ', 'Data Page(s): 19 ']
+['Photo(s): 17 ', 'Measured Drawing(s): 5 ', 'Data Page(s): 19 ']
 cn_2016809661.json:
-language: ['1 negative : glass ; 8 x 10 in.']
-language #2: ['1 negative : glass ; 8 x 10 in.']
+['1 negative : glass ; 8 x 10 in.']
 cn_2016631919.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2013646484.json:
-language: ['1 photograph : digital, TIFF file, color.']
-language #2: ['1 photograph : digital, TIFF file, color.']
+['1 photograph : digital, TIFF file, color.']
 cn_2018699890.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2017702546.json:
-language: ['1 photograph : color transparency ; 35 mm (slide format).']
-language #2: ['1 photograph : color transparency ; 35 mm (slide format).']
+['1 photograph : color transparency ; 35 mm (slide format).']
 cn_2015647967.json:
-language: ['1 photograph : born digital ; JPEG format.', '1 photograph : digital files copied onto an LC server.']
-language #2: ['1 photograph : born digital ; JPEG format.', '1 photograph : digital files copied onto an LC server.']
+['1 photograph : born digital ; JPEG format.', '1 photograph : digital files copied onto an LC server.']
 cn_98508385.json:
-language: ['1 print on board (poster) : silkscreen, color.']
-language #2: ['1 print on board (poster) : silkscreen, color.']
+['1 print on board (poster) : silkscreen, color.']
 cn_89710983.json:
-language: ['1 print : lithograph.']
-language #2: ['1 print : lithograph.']
+['1 print : lithograph.']
 cn_2017843202.json:
-language: ['1 negative : nitrate ; 2 1/4 x 2 1/4 inches or smaller.']
-language #2: ['1 negative : nitrate ; 2 1/4 x 2 1/4 inches or smaller.']
+['1 negative : nitrate ; 2 1/4 x 2 1/4 inches or smaller.']
 cn_2017702902.json:
-language: ['1 photograph : color transparency ; 35 mm (slide format).']
-language #2: ['1 photograph : color transparency ; 35 mm (slide format).']
+['1 photograph : color transparency ; 35 mm (slide format).']
 cn_2014633407.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_dc0121.json:
-language: None
-language #2: ['Photo(s): 42 ', 'Color Transparencies: 1 ', 'Data Page(s): 43 ', 'Photo Caption Page(s): 1 ']
+['Photo(s): 42 ', 'Color Transparencies: 1 ', 'Data Page(s): 43 ', 'Photo Caption Page(s): 1 ']
 cn_2018698612.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2017884872.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_nv0134.json:
-language: None
-language #2: ['Photo(s): 1 ', 'Photo Caption Page(s): 1 ']
+['Photo(s): 1 ', 'Photo Caption Page(s): 1 ']
 cn_2016851550.json:
-language: ['1 negative : glass ; 8 x 6 in.']
-language #2: ['1 negative : glass ; 8 x 6 in.']
+['1 negative : glass ; 8 x 6 in.']
 cn_hi0135.json:
-language: None
-language #2: ['Photo(s): 1 ', 'Photo Caption Page(s): 1 ']
+['Photo(s): 1 ', 'Photo Caption Page(s): 1 ']
 cn_2020722343.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_ok0012.json:
-language: None
-language #2: ['Photo(s): 12 ', 'Measured Drawing(s): 8 ', 'Data Page(s): 10 ', 'Photo Caption Page(s): 1 ']
+['Photo(s): 12 ', 'Measured Drawing(s): 8 ', 'Data Page(s): 10 ', 'Photo Caption Page(s): 1 ']
 cn_2014647618.json:
-language: ['1 photograph : hand-colored collotype ; sheet 14 x 21 cm.']
-language #2: ['1 photograph : hand-colored collotype ; sheet 14 x 21 cm.']
+['1 photograph : hand-colored collotype ; sheet 14 x 21 cm.']
 cn_2012631625.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2017880767.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_me0057.json:
-language: None
-language #2: ['Photo(s): 12 ', 'Data Page(s): 9 ']
+['Photo(s): 12 ', 'Data Page(s): 9 ']
 cn_2015631425.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2016632941.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2012630017.json:
-language: ['1 photograph : digital, TIFF file, color.']
-language #2: ['1 photograph : digital, TIFF file, color.']
+['1 photograph : digital, TIFF file, color.']
 cn_98508155.json:
-language: ['1 print on board (poster) : silkscreen, color.']
-language #2: ['1 print on board (poster) : silkscreen, color.']
+['1 print on board (poster) : silkscreen, color.']
 cn_2012630164.json:
-language: ['1 photograph : digital, TIFF file, color.']
-language #2: ['1 photograph : digital, TIFF file, color.']
+['1 photograph : digital, TIFF file, color.']
 cn_sc0767.json:
-language: None
-language #2: ['Photo(s): 12 ', 'Color Transparencies: 3 ', 'Data Page(s): 3 ', 'Photo Caption Page(s): 2 ']
+['Photo(s): 12 ', 'Color Transparencies: 3 ', 'Data Page(s): 3 ', 'Photo Caption Page(s): 2 ']
 cn_96514755.json:
-language: ['1 drawing : graphite and watercolor ; 41.8 x 68.5 cm (sheet)']
-language #2: ['1 drawing : graphite and watercolor ; 41.8 x 68.5 cm (sheet)']
+['1 drawing : graphite and watercolor ; 41.8 x 68.5 cm (sheet)']
 cn_2018663053.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2012630178.json:
-language: ['1 photograph : digital, TIFF file, color.']
-language #2: ['1 photograph : digital, TIFF file, color.']
+['1 photograph : digital, TIFF file, color.']
 cn_87694100.json:
-language: ['1 map : ms., mounted on cloth ; 37 x 41 cm., on sheet 40 x 56 cm.']
-language #2: ['1 map : ms., mounted on cloth ; 37 x 41 cm., on sheet 40 x 56 cm.']
+['1 map : ms., mounted on cloth ; 37 x 41 cm., on sheet 40 x 56 cm.']
 cn_2017762724.json:
-language: ['1 negative : safety ; 3 1/4 x 4 1/4 inches or smaller.']
-language #2: ['1 negative : safety ; 3 1/4 x 4 1/4 inches or smaller.']
+['1 negative : safety ; 3 1/4 x 4 1/4 inches or smaller.']
 cn_2008678216.json:
-language: ['1 photomechanical print : photochrom, color.']
-language #2: ['1 photomechanical print : photochrom, color.']
+['1 photomechanical print : photochrom, color.']
 cn_2015632735.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2019631085.json:
-language: ['1 photograph : digital, tiff file, color.']
-language #2: ['1 photograph : digital, tiff file, color.']
+['1 photograph : digital, tiff file, color.']
 cn_2013646466.json:
-language: ['1 photograph : digital, TIFF file, color.']
-language #2: ['1 photograph : digital, TIFF file, color.']
+['1 photograph : digital, TIFF file, color.']
 cn_91787443.json:
-language: ['1 photographic print.']
-language #2: ['1 photographic print.']
+['1 photographic print.']
 cn_2010630352.json:
-language: ['1 photograph : digital, TIFF file, color.']
-language #2: ['1 photograph : digital, TIFF file, color.']
+['1 photograph : digital, TIFF file, color.']
