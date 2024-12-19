@@ -1,4 +1,7 @@
-# script for fetching loc data for assignment 1
+# script for fetching LoC data for assignment 1.
+# at the moment, this is tuned for the LoC free-to-use collection library set.
+# the script fetches overarching set info, creates a setlist of the items as a csv file, fetches metadata
+# for each item in the setlist, and then fetches the large image for each item.
 import requests as req
 import json
 from pathlib import Path
@@ -273,7 +276,7 @@ def main():
 
     images_set_list = [load_json_metadata(i) for i in metadata_files]
 
-    print("Writing image urls to CSV as ftu-libraries-image-urls.csv...\n")
+    print("Writing images to item-files directory...\n")
 
     item_count, file_count, error_count = files_from_list(images_set_list, dir_path=ITEM_DIR)
 
